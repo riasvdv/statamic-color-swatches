@@ -7,7 +7,7 @@
 
 # Color Swatches plugin for Statamic
 
-Let clients choose from a predefined set of colours.
+Let clients choose from a predefined set of colors.
 
 ![Screenshot](./resources/assets/img/color-swatches-screenshot.png)
 
