@@ -2,14 +2,20 @@
 
 [![Latest Version](https://img.shields.io/github/release/rias500/statamic-color-swatches.svg?style=flat-square)](https://github.com/rias500/statamic-color-swatches/releases)
 [![Quality Score](https://img.shields.io/scrutinizer/g/rias500/statamic-color-swatches.svg?style=flat-square)](https://scrutinizer-ci.com/g/rias500/statamic-color-swatches)
-[![StyleCI](https://styleci.io/repos/117454863/shield)](https://styleci.io/repos/117454863)
-[![Total Downloads](https://img.shields.io/packagist/dt/rias/statamic-color-swatches.svg?style=flat-square)](https://packagist.org/packages/rias/statamic-color-swatches)
+[![StyleCI](https://styleci.io/repos/181754960/shield)](https://styleci.io/repos/181754960)
 
 # Color Swatches plugin for Statamic
 
 Let clients choose from a predefined set of colors.
 
 ![Screenshot](./resources/assets/img/color-swatches-screenshot.png)
+
+## License
+
+Color Swatches requires a license to be used while on a production site.  
+You can purchase one at https://statamic.com/marketplace/addons/color-swatches.
+
+You may use Color Swatches without a license while Statamic is in [Trial mode](https://docs.statamic.com/knowledge-base/trial-mode).
 
 ## Installation
 
