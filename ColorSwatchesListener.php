@@ -12,7 +12,7 @@ class ColorSwatchesListener extends Listener
      * @var array
      */
     public $events = [
-        'cp.add_to_head' => 'addToHead'
+        'cp.add_to_head' => 'addToHead',
     ];
 
     public function addToHead()
