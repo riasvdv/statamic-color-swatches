@@ -31,7 +31,12 @@ Vue.component('color_swatches-fieldtype', {
             }
 
             return gradient + ')';
-        }
+        },
+        getReplicatorPreviewText() {
+            if (! this.data) return;
+
+            return this.data.label;
+        },
     },
 
     ready: function() {
