@@ -53,7 +53,7 @@ You can access both the label and color in your template.
 ```twig
 {{ color.label }}
 {{ color.value }}
-{{ color.value[0] }} #If it's more than one color
+{{ color.value.0 }} #If it's more than one color
 ```
 
 Brought to you by [Rias](https://rias.be)
