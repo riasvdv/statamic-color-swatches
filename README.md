@@ -61,7 +61,6 @@ sections:
         handle: color
         field:
           type: color_swatches
-          localizable: false
           display: Color
           colors:
             -
