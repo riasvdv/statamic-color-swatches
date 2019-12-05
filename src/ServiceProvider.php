@@ -11,7 +11,7 @@ class ServiceProvider extends AddonServiceProvider
     ];
 
     protected $stylesheets = [
-        __DIR__.'/../dist/css/color-swatches.css'
+        __DIR__.'/../dist/css/color-swatches.css',
     ];
 
     protected $scripts = [

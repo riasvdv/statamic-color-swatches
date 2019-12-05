@@ -8,29 +8,29 @@ class ColorSwatchesFieldtype extends Fieldtype
 {
     protected $configFields = [
         'colors' => [
-            'type' => 'grid',
+            'type'         => 'grid',
             'instructions' => 'Define the colors that can be selected.',
-            'add_row' => 'Add color',
-            'fields' => [
+            'add_row'      => 'Add color',
+            'fields'       => [
                 'label' => [
                     'handle' => 'label',
-                    'field' => [
+                    'field'  => [
                         'type' => 'text',
-                    ]
+                    ],
                 ],
                 'value' => [
                     'display' => 'Values',
-                    'handle' => 'value',
-                    'field' => [
+                    'handle'  => 'value',
+                    'field'   => [
                         'type' => 'list',
-                    ]
-                ]
-            ]
+                    ],
+                ],
+            ],
         ],
         'default' => [
-            'type' => 'text',
-            'instructions' => 'The label of the default color.'
-        ]
+            'type'         => 'text',
+            'instructions' => 'The label of the default color.',
+        ],
     ];
 
     public function icon()
