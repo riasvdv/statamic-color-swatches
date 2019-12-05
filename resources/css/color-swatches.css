@@ -1,13 +1,5 @@
-.color_swatches-fieldtype-options {
-    width: 50%;
-}
-
-.color_swatches-fieldtype {
-    font-size: 0;
-}
-
 .color_swatches-fieldtype button {
-    border: 3px solid #E7E8EB;
+    border: 3px solid hsl(210, 30%, 95%);
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;
@@ -15,13 +7,18 @@
     width: 40px;
     position: relative;
     transition: box-shadow 200ms ease 0s;
-    margin: 0 10px 0 0;
+    margin: 5px 10px 5px 0;
+}
+
+.color_swatches-fieldtype button:hover {
+    border-color: hsl(209, 22%, 89%);
 }
 
 .color_swatches-fieldtype button:focus {
+    border-color: hsl(210, 22%, 89%);
     outline: none;
 }
 
 .color_swatches-fieldtype button.active {
-    box-shadow: 0 0 0 3px #3aa3e2;
+    box-shadow: 0 0 0 3px #3aa3e3;
 }

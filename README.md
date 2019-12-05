@@ -1,14 +1,16 @@
 ![Icon](icon.svg)
 
-[![Latest Version](https://img.shields.io/github/release/rias500/statamic-color-swatches.svg?style=flat-square)](https://github.com/rias500/statamic-color-swatches/releases)
-[![Quality Score](https://img.shields.io/scrutinizer/g/rias500/statamic-color-swatches.svg?style=flat-square)](https://scrutinizer-ci.com/g/rias500/statamic-color-swatches)
-[![StyleCI](https://styleci.io/repos/181754960/shield)](https://styleci.io/repos/181754960)
+[![Latest Version](https://img.shields.io/github/release/riasvdv/statamic-color-swatches.svg?style=flat-square)](https://github.com/riasvdv/statamic-color-swatches/releases)
 
-# Color Swatches plugin for Statamic
+# Color Swatches
+
+> Color Swatches for Statamic 3.
+
+For the Statamic 2 version, check out the [v1 branch](https://github.com/riasvdv/statamic-color-swatches/tree/v1)
 
 Let clients choose from a predefined set of colors.
 
-![Screenshot](./resources/assets/img/color-swatches-screenshot.png)
+![Screenshot](./docs/img/color-swatches-screenshot.png)
 
 ## License
 
@@ -19,7 +21,28 @@ You may use Color Swatches without a license while Statamic is in [Trial mode](h
 
 ## Installation
 
-To install the plugin, download the plugin and place it in your `site/addons` folder.
+Clone the Github repo somewhere, then add it to your `composer.json`'s `repositories` array. (This is only necessary until the package is released.) Adjust the `url` to point to cloned directory.
+
+``` json
+"repositories": [
+    {
+        "type": "path",
+        "url": "addons/rias/color-swatches"
+    }
+]
+```
+
+Require it using Composer.
+
+```
+composer require rias/statamic-color-swatches
+```
+
+Publish the assets:
+
+```
+php artisan vendor:publish --provider="Rias\ColorSwatches\ServiceProvider"
+```
 
 ## Color Swatches Overview
 
@@ -34,16 +57,30 @@ sections:
   main:
     display: Main
     fields:
-      color:
-        type: color_swatches
-        colors:
-          red: '#E3342F'
-          orange: '#F6993F'
-          green: '#38C172'
-          blue-yellow:
-            - '#4299E1'
-            - '#ECC94B'
-        default: blue
+      -
+        handle: color
+        field:
+          type: color_swatches
+          localizable: false
+          display: Color
+          colors:
+            -
+              label: red
+              value:
+                - '#F56565'
+            -
+              label: orange
+              value:
+                - '#ED8936'
+            -
+              label: green
+              value:
+                - '#48BB78'
+            -
+              label: blue_yellow
+              value:
+                - '#4299E1'
+                - '#E7C961'
 ```
 
 ## Using Color Swatches
