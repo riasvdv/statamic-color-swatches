@@ -6,6 +6,9 @@
             "Rias\\ColorSwatches\\": "src"
         }
     },
+    "require":  {
+        "pixelfear/composer-dist-plugin": "^0.1.0"
+    },
     "extra": {
         "statamic": {
             "name": "Color Swatches",
