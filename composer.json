@@ -12,7 +12,7 @@
     "extra": {
         "download-dist": {
             "url": "https://github.com/riasvdv/statamic-color-swatches/releases/download/{$version}/dist.tar.gz",
-            "path": "resources/dist"
+            "path": "dist"
         },
         "statamic": {
             "name": "Color Swatches",
