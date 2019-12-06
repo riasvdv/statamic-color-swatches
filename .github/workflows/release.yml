@@ -20,7 +20,7 @@ jobs:
         run: yarn production
       
       - name: Create zip
-        run: cd resources && tar -czvf dist.tar.gz dist
+        run: tar -czvf dist.tar.gz dist
       
       - name: Create release
         id: create_release
@@ -37,6 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./resources/dist.tar.gz
+          asset_path: ./dist.tar.gz
           asset_name: dist.tar.gz
           asset_content_type: application/tar+gz
