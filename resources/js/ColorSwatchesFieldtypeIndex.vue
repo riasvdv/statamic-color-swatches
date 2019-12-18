@@ -5,6 +5,8 @@
 </template>
 
 <script>
+    import createCssBackgroundFromColors from './createCssBackgroundFromColors';
+
     export default {
         mixins: [IndexFieldtype],
 
