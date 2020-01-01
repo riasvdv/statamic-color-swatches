@@ -29,10 +29,15 @@
 
         mounted: function() {
             if (this.config.default && this.value === this.config.default) {
-                this.update({
-                    label: this.config.default,
-                    value: this.config.colors.filter(color => color.label === this.config.default)[0].value,
-                });
+                const matches = this.config.colors.filter(color => color.label === this.config.default);
+                if (matches.length > 0) {
+                    this.$nextTick(() => {
+                        this.update({
+                            label: matches[0].label.toString(),
+                            value: matches[0].value.toString(),
+                        });
+                    });
+                }
             }
         }
     }
