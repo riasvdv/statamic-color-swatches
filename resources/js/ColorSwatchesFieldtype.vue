@@ -2,7 +2,7 @@
   <div>
     <button
       v-for="configColor in config.colors"
-      :class="[isActive(configColor) ? 'active' : '']"
+      :class="['color-swatches-button', (isActive(configColor) ? 'active' : '')]"
       :title="configColor.label"
       :style="'background: ' + cssBackground(configColor.value)"
       @click="isActive(configColor) ? update(null) : update({ label: configColor.label, value: configColor.value })"

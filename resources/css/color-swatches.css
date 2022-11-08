@@ -1,4 +1,4 @@
-.color_swatches-fieldtype button {
+.color_swatches-fieldtype .color-swatches-button {
   border: 3px solid hsl(210, 30%, 95%);
   border-radius: 50%;
   cursor: pointer;
@@ -10,15 +10,15 @@
   margin: 5px 10px 5px 0;
 }
 
-.color_swatches-fieldtype button:hover {
+.color_swatches-fieldtype .color-swatches-button:hover {
   border-color: hsl(209, 22%, 89%);
 }
 
-.color_swatches-fieldtype button:focus {
+.color_swatches-fieldtype .color-swatches-button:focus {
   border-color: hsl(210, 22%, 89%);
   outline: none;
 }
 
-.color_swatches-fieldtype button.active {
+.color_swatches-fieldtype .color-swatches-button.active {
   box-shadow: 0 0 0 3px #3aa3e3;
 }
