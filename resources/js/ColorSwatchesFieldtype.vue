@@ -2,10 +2,10 @@
   <div>
     <button
       v-for="configColor in config.colors"
-      :class="[value && configColor.label === value.label ? 'active' : '']"
+      :class="[isActive(configColor) ? 'active' : '']"
       :title="configColor.label"
       :style="'background: ' + cssBackground(configColor.value)"
-      @click="update({ label: configColor.label, value: configColor.value })"
+      @click="isActive(configColor) ? update(null) : update({ label: configColor.label, value: configColor.value })"
     />
   </div>
 </template>
@@ -24,6 +24,11 @@ export default {
       if (!this.value) return;
 
       return this.value.label;
+    },
+    isActive(color) {
+      if (! this.value) return false;
+
+      return color.label === this.value.label
     }
   },
 
