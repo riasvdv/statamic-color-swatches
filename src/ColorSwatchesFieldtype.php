@@ -2,6 +2,7 @@
 
 namespace Rias\ColorSwatches;
 
+use Illuminate\Support\Arr;
 use Statamic\Fields\Fieldtype;
 
 class ColorSwatchesFieldtype extends Fieldtype
@@ -36,6 +37,15 @@ class ColorSwatchesFieldtype extends Fieldtype
     public function icon()
     {
         return 'color';
+    }
+
+    public function process($data)
+    {
+        if (isset($data['value'])) {
+            $data['value'] = Arr::wrap($data['value']);
+        }
+
+        return $data;
     }
 
     public function augment($value)
