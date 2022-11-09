@@ -7,14 +7,9 @@
         }
     },
     "require":  {
-        "statamic/cms": "^3.0",
-        "pixelfear/composer-dist-plugin": "^0.1.0"
+        "statamic/cms": "^3.0"
     },
     "extra": {
-        "download-dist": {
-            "url": "https://github.com/riasvdv/statamic-color-swatches/releases/download/{$version}/dist.tar.gz",
-            "path": "dist"
-        },
         "statamic": {
             "name": "Color Swatches",
             "description": "Color Swatches addon"
