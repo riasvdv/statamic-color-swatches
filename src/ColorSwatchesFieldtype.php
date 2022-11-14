@@ -2,7 +2,6 @@
 
 namespace Rias\ColorSwatches;
 
-use Illuminate\Support\Arr;
 use Statamic\Fields\Fieldtype;
 
 class ColorSwatchesFieldtype extends Fieldtype
