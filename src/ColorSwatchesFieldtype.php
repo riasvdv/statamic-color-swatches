@@ -40,7 +40,7 @@ class ColorSwatchesFieldtype extends Fieldtype
 
     public function process($data)
     {
-        if (isset($data['value'])) {
+        if (isset($data['value']) && is_string($data['value'])) {
             $data['value'] = explode(',', $data['value']);
         }
 
