@@ -42,7 +42,7 @@ class ColorSwatchesFieldtype extends Fieldtype
     public function process($data)
     {
         if (isset($data['value'])) {
-            $data['value'] = Arr::wrap($data['value']);
+            $data['value'] = explode(',', $data['value']);
         }
 
         return $data;
