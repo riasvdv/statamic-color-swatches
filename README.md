@@ -1,4 +1,4 @@
-![Icon](https://github.com/riasvdv/statamic-color-swatches/raw/master/icon.svg)
+![Icon](https://github.com/riasvdv/statamic-color-swatches/raw/main/icon.svg)
 
 [![Latest Version](https://img.shields.io/github/release/riasvdv/statamic-color-swatches.svg?style=flat-square)](https://github.com/riasvdv/statamic-color-swatches/releases)
 
@@ -10,7 +10,7 @@ For the Statamic 2 version, check out the [v1 branch](https://github.com/riasvdv
 
 Let clients choose from a predefined set of colors.
 
-![Screenshot](https://github.com/riasvdv/statamic-color-swatches/raw/master/docs/img/color-swatches-screenshot.png)
+![Screenshot](https://github.com/riasvdv/statamic-color-swatches/raw/main/docs/img/color-swatches-screenshot.png)
 
 ## License
 
