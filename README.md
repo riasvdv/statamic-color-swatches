@@ -17,7 +17,7 @@ Let clients choose from a predefined set of colors.
 Color Swatches requires a license to be used while on a production site.  
 You can purchase one at https://statamic.com/marketplace/addons/color-swatches.
 
-You may use Color Swatches without a license while Statamic is in [Trial mode](https://docs.statamic.com/knowledge-base/trial-mode).
+You may use Color Swatches without a license while Statamic is in [Trial mode](https://statamic.dev/tips/how-to-enable-statamic-pro#trial-mode).
 
 ## Installation
 
