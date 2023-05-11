@@ -3,6 +3,7 @@
 namespace Rias\ColorSwatches;
 
 use Statamic\Fields\Fieldtype;
+use Statamic\Facades\GraphQL;
 
 class ColorSwatchesFieldtype extends Fieldtype
 {
@@ -50,5 +51,10 @@ class ColorSwatchesFieldtype extends Fieldtype
     public function augment($value)
     {
         return $value;
+    }
+
+    public function toGqlType()
+    {
+        return GraphQL::type('ColorSwatchType');
     }
 }
