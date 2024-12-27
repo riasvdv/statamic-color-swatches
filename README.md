@@ -4,7 +4,7 @@
 
 # Color Swatches
 
-> Color Swatches for Statamic 3.
+> Color Swatches for Statamic >= v3.
 
 For the Statamic 2 version, check out the [v1 branch](https://github.com/riasvdv/statamic-color-swatches/tree/v1)
 
