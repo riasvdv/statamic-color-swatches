@@ -30,7 +30,7 @@ class ColorSwatchType extends \Rebing\GraphQL\Support\Type
                         return $values['value'];
                     }
 
-                    return Arr::($values['value']);
+                    return Arr::first($values['value']);
                 }
             ],
         ];
