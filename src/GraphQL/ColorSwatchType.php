@@ -3,6 +3,7 @@
 namespace Rias\ColorSwatches\GraphQL;
 
 use GraphQL\Type\Definition\Type;
+use Illuminate\Support\Arr;
 
 class ColorSwatchType extends \Rebing\GraphQL\Support\Type
 {
@@ -29,7 +30,7 @@ class ColorSwatchType extends \Rebing\GraphQL\Support\Type
                         return $values['value'];
                     }
 
-                    return array_first($values['value']);
+                    return Arr::($values['value']);
                 }
             ],
         ];
