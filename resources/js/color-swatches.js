@@ -1,9 +1,9 @@
-import ColorSwatchesFieldtype from "./ColorSwatchesFieldtype";
-import ColorSwatchesFieldtypeIndex from "./ColorSwatchesFieldtypeIndex";
+import ColorSwatchesFieldtype from "./ColorSwatchesFieldtype.vue";
+import ColorSwatchesFieldtypeIndex from "./ColorSwatchesFieldtypeIndex.vue";
 
 Statamic.booting(() => {
-  Statamic.component("color_swatches-fieldtype", ColorSwatchesFieldtype);
-  Statamic.component(
+  Statamic.$components.register("color_swatches-fieldtype", ColorSwatchesFieldtype);
+  Statamic.$components.register(
     "color_swatches-fieldtype-index",
     ColorSwatchesFieldtypeIndex
   );

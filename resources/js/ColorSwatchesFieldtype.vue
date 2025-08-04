@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import Fieldtype from '@statamic/components/fieldtypes/Fieldtype.vue';
 import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
 
 export default {

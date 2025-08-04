@@ -8,17 +8,16 @@
   position: relative;
   transition: box-shadow 200ms ease 0s;
   margin: 5px 10px 5px 0;
+
+  --tw-shadow: 0px 2px 3px -2px var(--tw-shadow-color,#00000026);
+  box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);
 }
 
-.color_swatches-fieldtype .color-swatches-button:hover {
-  border-color: hsl(209, 22%, 89%);
-}
-
+.color_swatches-fieldtype .color-swatches-button:hover,
 .color_swatches-fieldtype .color-swatches-button:focus {
-  border-color: hsl(210, 22%, 89%);
-  outline: none;
+  border-color: var(--color-zinc-100);
 }
 
 .color_swatches-fieldtype .color-swatches-button.active {
-  box-shadow: 0 0 0 3px #3aa3e3;
+  box-shadow: 0 0 0 2px var(--color-zinc-800);
 }
