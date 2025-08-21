@@ -7,7 +7,7 @@
         }
     },
     "require":  {
-        "statamic/cms": "dev-master"
+        "statamic/cms": "^6.0.0"
     },
     "extra": {
         "statamic": {
