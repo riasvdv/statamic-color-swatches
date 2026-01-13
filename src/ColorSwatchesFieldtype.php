@@ -10,20 +10,27 @@ class ColorSwatchesFieldtype extends Fieldtype
     protected $configFields = [
         'colors' => [
             'type'         => 'grid',
+            'display' => 'Colors',
             'instructions' => 'Define the colors that can be selected.',
             'add_row'      => 'Add color',
+            'mode' => 'stacked',
             'fields'       => [
-                'label' => [
+                [
                     'handle' => 'label',
                     'field'  => [
                         'type' => 'text',
+                        'display' => 'Label',
+                        'instructions' => 'The label of the color. This can also be the class you use in your CSS for example.',
+                        'width' => 100,
                     ],
                 ],
-                'value' => [
-                    'display' => 'Values',
+                [
                     'handle'  => 'value',
                     'field'   => [
                         'type' => 'list',
+                        'display' => 'Values',
+                        'instructions' => 'One or more CSS color values.',
+                        'width' => 100,
                     ],
                 ],
             ],
@@ -34,9 +41,9 @@ class ColorSwatchesFieldtype extends Fieldtype
         ],
     ];
 
-    public function icon()
+    public function icon(): string
     {
-        return 'color';
+        return 'fieldtype-color';
     }
 
     public function process($data)
