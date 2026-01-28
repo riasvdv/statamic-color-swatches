@@ -12,16 +12,17 @@ class ServiceProvider extends AddonServiceProvider
         ColorSwatchesFieldtype::class,
     ];
 
+    protected $vite = [
+        'input' => [
+            'resources/js/color-swatches.js',
+            'resources/css/color-swatches.css',
+        ],
+        'publicDirectory' => 'dist',
+        'hotFile' => __DIR__.'/../dist/hot',
+    ];
+
     public function bootAddon()
     {
         GraphQL::addType(ColorSwatchType::class);
     }
-
-    protected $stylesheets = [
-        __DIR__.'/../dist/css/color-swatches.css',
-    ];
-
-    protected $scripts = [
-        __DIR__.'/../dist/js/color-swatches.js',
-    ];
 }

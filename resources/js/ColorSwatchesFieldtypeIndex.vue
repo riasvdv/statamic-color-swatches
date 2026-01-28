@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import IndexFieldtype from '@statamic/components/fieldtypes/IndexFieldtype.vue';
 import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
 
 export default {

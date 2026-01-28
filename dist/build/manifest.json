@@ -1,0 +1,920 @@
+{
+  "resources/css/color-swatches.css": {
+    "file": "assets/color-swatches-oiSU2mzK.css",
+    "src": "resources/css/color-swatches.css",
+    "isEntry": true
+  },
+  "resources/js/color-swatches.js": {
+    "file": "assets/color-swatches-gajW0v9E.js",
+    "name": "color-swatches",
+    "src": "resources/js/color-swatches.js",
+    "isEntry": true,
+    "css": [
+      "assets/color-swatches-a4KcH58b.css"
+    ]
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-bookmark.svg": {
+    "file": "assets/add-bookmark-Dg6JOlmD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-bookmark.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-circle.svg": {
+    "file": "assets/add-circle-DK8PB5qT.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-circle.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-entry.svg": {
+    "file": "assets/add-entry-DN_wdhza.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-entry.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-folder.svg": {
+    "file": "assets/add-folder-BWk6Z82l.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-folder.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-group.svg": {
+    "file": "assets/add-group-CUPZ_mk2.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-group.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-item.svg": {
+    "file": "assets/add-item-C6-HFv_H.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-item.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-link.svg": {
+    "file": "assets/add-link-DoKwRZnp.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-link.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-list.svg": {
+    "file": "assets/add-list-DvtQawMY.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-list.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-section.svg": {
+    "file": "assets/add-section-CfuLbAT5.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-section.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-sticky.svg": {
+    "file": "assets/add-sticky-BCT56qi2.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-sticky.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-tag.svg": {
+    "file": "assets/add-tag-DER5c3Mm.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-tag.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/add-user.svg": {
+    "file": "assets/add-user-de_8jw-P.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-user.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/addons.svg": {
+    "file": "assets/addons-CX27rxZf.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/addons.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/ai.svg": {
+    "file": "assets/ai-BykRWENl.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/ai.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/align-center.svg": {
+    "file": "assets/align-center-YOlVBuHb.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/align-center.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/align-left.svg": {
+    "file": "assets/align-left-BnOEbelY.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/align-left.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/align-right.svg": {
+    "file": "assets/align-right-CUymyRkq.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/align-right.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/arrow-down.svg": {
+    "file": "assets/arrow-down-fEzgGsDD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/arrow-down.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/arrow-left.svg": {
+    "file": "assets/arrow-left-CaHQCQy4.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/arrow-left.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/arrow-right.svg": {
+    "file": "assets/arrow-right-D_E0M1xt.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/arrow-right.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/arrow-up-right.svg": {
+    "file": "assets/arrow-up-right-DxC-vNci.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/arrow-up-right.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/asset-folder.svg": {
+    "file": "assets/asset-folder-Ds_g9Ow8.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/asset-folder.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/assets.svg": {
+    "file": "assets/assets-Csw3z0Ld.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/assets.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/avatar.svg": {
+    "file": "assets/avatar-CZO32RLi.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/avatar.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/bell.svg": {
+    "file": "assets/bell-BKfJv6Du.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/bell.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/blueprint-edit.svg": {
+    "file": "assets/blueprint-edit-DTHFcoc3.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/blueprint-edit.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/blueprints.svg": {
+    "file": "assets/blueprints-2aTHRZrf.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/blueprints.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/book-next-page.svg": {
+    "file": "assets/book-next-page-D_GlWuax.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/book-next-page.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/book-prev-page.svg": {
+    "file": "assets/book-prev-page-KYgJLsVs.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/book-prev-page.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/burger-menu.svg": {
+    "file": "assets/burger-menu-3l-Onmcq.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/burger-menu.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/cache.svg": {
+    "file": "assets/cache-D6i_xC1U.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/cache.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/calendar.svg": {
+    "file": "assets/calendar-BshYXQD5.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/calendar.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/checkmark.svg": {
+    "file": "assets/checkmark-Cb1mGACn.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/checkmark.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/clipboard-check.svg": {
+    "file": "assets/clipboard-check-1h6mbFyv.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/clipboard-check.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/clipboard.svg": {
+    "file": "assets/forms-8IPcNOYw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/clipboard.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/cog-solid.svg": {
+    "file": "assets/cog-solid-CHiZFdnO.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/cog-solid.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/cog.svg": {
+    "file": "assets/cog-CTaw24ld.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/cog.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/collections.svg": {
+    "file": "assets/collections-_CPgphKN.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/collections.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/columns.svg": {
+    "file": "assets/columns-CezcMwWL.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/columns.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/configure.svg": {
+    "file": "assets/configure-bA1odBjj.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/configure.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/container-add.svg": {
+    "file": "assets/container-add-Tn8zfreX.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/container-add.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/credit-card.svg": {
+    "file": "assets/credit-card-DTU0hFbC.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/credit-card.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/dashboard.svg": {
+    "file": "assets/dashboard-Dxdu7iX7.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/dashboard.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/delete.svg": {
+    "file": "assets/delete-CvPHXxer.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/delete.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/docs.svg": {
+    "file": "assets/docs-D9aPDRvw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/docs.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/down-square.svg": {
+    "file": "assets/down-square-7CcWRHJX.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/down-square.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/download.svg": {
+    "file": "assets/download-BGe_N9j6.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/download.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/duplicate.svg": {
+    "file": "assets/duplicate-BTz_qwZG.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/duplicate.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/earth.svg": {
+    "file": "assets/earth-XvjrzuSN.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/earth.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/edit.svg": {
+    "file": "assets/edit-BrOUjId4.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/edit.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/entry.svg": {
+    "file": "assets/entry-JKZC68RG.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/entry.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/external-link-original.svg": {
+    "file": "assets/external-link-original-BhxiO1E5.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/external-link-original.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/external-link.svg": {
+    "file": "assets/external-link-CBHX5F-c.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/external-link.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/eye-closed.svg": {
+    "file": "assets/eye-closed-CSvpYwNx.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/eye-closed.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/eye-slash.svg": {
+    "file": "assets/eye-slash-B9Ncd-yJ.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/eye-slash.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/eye.svg": {
+    "file": "assets/eye-C22YK59d.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/eye.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldsets.svg": {
+    "file": "assets/fieldsets-ZGGMNFRD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldsets.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-array.svg": {
+    "file": "assets/fieldtype-yaml-Ba-W_FFV.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-array.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-assets.svg": {
+    "file": "assets/fieldtype-assets-NKtLgpgY.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-assets.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-bard.svg": {
+    "file": "assets/fieldtype-bard-MC2-mMfE.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-bard.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-button_group.svg": {
+    "file": "assets/fieldtype-button_group-B7kAX3pD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-button_group.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-checkboxes.svg": {
+    "file": "assets/fieldtype-checkboxes-DWX4tVzU.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-checkboxes.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-code.svg": {
+    "file": "assets/fieldtype-code-BlHHfLb5.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-code.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-collections.svg": {
+    "file": "assets/collections-_CPgphKN.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/collections.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-color.svg": {
+    "file": "assets/palette-BOD16NXD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-color.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-date.svg": {
+    "file": "assets/calendar-BshYXQD5.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/calendar.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-dictionary.svg": {
+    "file": "assets/fieldtype-dictionary-MIVKeaWN.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-dictionary.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-entries.svg": {
+    "file": "assets/fieldtype-entries-DKCJi7fd.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-entries.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-float.svg": {
+    "file": "assets/fieldtype-float-ZIY4uiJR.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-float.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-form.svg": {
+    "file": "assets/fieldtype-form-Dw3_jFqB.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-form.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-grid.svg": {
+    "file": "assets/fieldtype-grid-JHfbs6W2.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-grid.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-group.svg": {
+    "file": "assets/fieldtype-group-BEaMcRSv.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-group.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-hidden.svg": {
+    "file": "assets/fieldtype-hidden-BFdNHbn3.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-hidden.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-html.svg": {
+    "file": "assets/fieldtype-html-BiAFAOnY.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-html.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-icon_picker.svg": {
+    "file": "assets/fieldtype-icon_picker-8bTzcfzD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-icon_picker.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-integer.svg": {
+    "file": "assets/fieldtype-integer-1AhnomoB.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-integer.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-link.svg": {
+    "file": "assets/fieldtype-link-CDp-zb-S.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-link.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-list.svg": {
+    "file": "assets/fieldtype-list-CyyvwoU7.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-list.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-markdown.svg": {
+    "file": "assets/markdown-DWfzzPkr.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-markdown.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-navigation.svg": {
+    "file": "assets/navigation-2w9LO_H-.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-navigation.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-radio.svg": {
+    "file": "assets/fieldtype-radio-lV8LtcvO.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-radio.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-range.svg": {
+    "file": "assets/fieldtype-range-Bw1zJP0L.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-range.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-replicator.svg": {
+    "file": "assets/fieldtype-replicator-CQMglVKx.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-replicator.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-revealer.svg": {
+    "file": "assets/eye-closed-CSvpYwNx.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/eye-closed.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-section.svg": {
+    "file": "assets/fieldtype-section-Dm530YDV.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-section.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-select.svg": {
+    "file": "assets/fieldtype-select-D0LLXKNX.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-select.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-sites.svg": {
+    "file": "assets/fieldtype-sites-Bziexgjx.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-sites.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-slug.svg": {
+    "file": "assets/fieldtype-slug-CmTh8muO.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-slug.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-spacer.svg": {
+    "file": "assets/fieldtype-spacer-BQP-LTcN.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-spacer.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-structures.svg": {
+    "file": "assets/hierarchy-CfLvYvCk.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-structures.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-table.svg": {
+    "file": "assets/fieldtype-table-BCgHOcsi.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-table.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-taggable.svg": {
+    "file": "assets/add-tag-DER5c3Mm.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-tag.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-taxonomy.svg": {
+    "file": "assets/taxonomies-DC8NrGyK.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-taxonomy.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-template.svg": {
+    "file": "assets/fieldtype-template-D-4AG5Df.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-template.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-text.svg": {
+    "file": "assets/fieldtype-text-Cm3mFb55.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-text.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-textarea.svg": {
+    "file": "assets/fieldtype-textarea-DDnpS7Mt.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-textarea.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-time.svg": {
+    "file": "assets/fieldtype-time-AnyFYPE1.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-time.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-toggle.svg": {
+    "file": "assets/fieldtype-toggle-RYW-cWAm.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-toggle.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-user_groups.svg": {
+    "file": "assets/groups-DPigkOiu.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-user_groups.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-user_roles.svg": {
+    "file": "assets/fieldtype-user_roles-BOLpAzqw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-user_roles.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-users.svg": {
+    "file": "assets/fieldtype-users-C52WuCmw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-users.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-video.svg": {
+    "file": "assets/fieldtype-video-BsH8s8k0.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-video.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-width.svg": {
+    "file": "assets/fieldtype-width-BO4TtBe5.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-width.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fieldtype-yaml.svg": {
+    "file": "assets/fieldtype-yaml-Ba-W_FFV.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-array.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/filter-2.svg": {
+    "file": "assets/filter-2-C5ZMKjvl.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/filter-2.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/filter.svg": {
+    "file": "assets/filter-Cn26UWEh.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/filter.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fingerprint.svg": {
+    "file": "assets/fingerprint-D856DHBG.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fingerprint.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fit-height.svg": {
+    "file": "assets/fit-height-CRI8CTzw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fit-height.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/fit-width.svg": {
+    "file": "assets/fit-width-rQQKe2OM.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fit-width.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/focus.svg": {
+    "file": "assets/focus-npzA0Lsa.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/focus.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-add.svg": {
+    "file": "assets/add-folder-BWk6Z82l.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/add-folder.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-ai.svg": {
+    "file": "assets/folder-ai-DUj1VH_h.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-ai.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-block.svg": {
+    "file": "assets/folder-block-DZLsybK3.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-block.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-check.svg": {
+    "file": "assets/folder-check-Bh_SCOB6.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-check.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-download.svg": {
+    "file": "assets/folder-download-CKx6EdRw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-download.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-edit.svg": {
+    "file": "assets/folder-edit-BR8YcHZh.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-edit.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-ghost.svg": {
+    "file": "assets/folder-ghost-DBUvUBjq.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-ghost.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-history.svg": {
+    "file": "assets/folder-history-HrW6x1-U.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-history.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-lock.svg": {
+    "file": "assets/folder-lock-h8Rd-S3f.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-lock.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-music.svg": {
+    "file": "assets/folder-music-DcNFkc6t.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-music.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-open.svg": {
+    "file": "assets/folder-open-BKhBq-zW.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-open.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-photos.svg": {
+    "file": "assets/folder-photos-C7ikyRa5.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-photos.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-play.svg": {
+    "file": "assets/folder-play-DoBPuxP4.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-play.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-remove.svg": {
+    "file": "assets/folder-remove-Tai7HvT4.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-remove.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-settings.svg": {
+    "file": "assets/folder-settings-BkpbiPcq.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-settings.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder-warning.svg": {
+    "file": "assets/folder-warning-w0556y7c.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder-warning.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/folder.svg": {
+    "file": "assets/folder-DeWAzUw8.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/folder.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/forms.svg": {
+    "file": "assets/forms-8IPcNOYw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/clipboard.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/git.svg": {
+    "file": "assets/git-BLGrbfWd.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/git.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/globals.svg": {
+    "file": "assets/globals-QuRA4JxL.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/globals.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/graphql.svg": {
+    "file": "assets/graphql-DHr5WJ_S.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/graphql.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/groups.svg": {
+    "file": "assets/groups-DPigkOiu.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-user_groups.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/handles-sm.svg": {
+    "file": "assets/handles-sm-0uX77ZiJ.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/handles-sm.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/handles.svg": {
+    "file": "assets/handles-DTOuV2vy.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/handles.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/heart.svg": {
+    "file": "assets/heart-FnwKQUJt.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/heart.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/hierarchy.svg": {
+    "file": "assets/hierarchy-CfLvYvCk.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-structures.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/history.svg": {
+    "file": "assets/rewind-BQXGePyU.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/history.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/home.svg": {
+    "file": "assets/home-BwypjWFv.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/home.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/info-square.svg": {
+    "file": "assets/info-square-CdYnxKjK.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/info-square.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/info.svg": {
+    "file": "assets/info-CoMcFPDR.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/info.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/key.svg": {
+    "file": "assets/key-NjyjoMSn.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/key.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/layout-grid.svg": {
+    "file": "assets/layout-grid-ok-uey6B.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/layout-grid.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/layout-list.svg": {
+    "file": "assets/layout-list-Dw7zRZd_.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/layout-list.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/layout-masonry.svg": {
+    "file": "assets/layout-masonry-8kfu4mno.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/layout-masonry.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/license.svg": {
+    "file": "assets/license-DEjPFMeU.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/license.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/link.svg": {
+    "file": "assets/link-PrUuUB7l.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/link.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/live-preview.svg": {
+    "file": "assets/live-preview-DvrGJLlF.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/live-preview.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/loading.svg": {
+    "file": "assets/loading-DfNwMPS7.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/loading.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/magnifying-glass.svg": {
+    "file": "assets/magnifying-glass-DVu-AOG3.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/magnifying-glass.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/mail-check.svg": {
+    "file": "assets/mail-check-CYLBGetw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/mail-check.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/mail-settings.svg": {
+    "file": "assets/mail-settings-Bx-cWCe7.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/mail-settings.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/mail.svg": {
+    "file": "assets/mail-BWN14uRY.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/mail.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/markdown.svg": {
+    "file": "assets/markdown-DWfzzPkr.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-markdown.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/mask.svg": {
+    "file": "assets/mask-5jrEXstx.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/mask.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/maximize.svg": {
+    "file": "assets/maximize-C8hXuGzD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/maximize.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/megaphone.svg": {
+    "file": "assets/megaphone-DfgnhbFj.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/megaphone.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/memory.svg": {
+    "file": "assets/memory-DtbIS8WM.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/memory.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/minimize.svg": {
+    "file": "assets/minimize-c1tG_K3o.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/minimize.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/monitor.svg": {
+    "file": "assets/monitor-BQ0iBsgt.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/monitor.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/moon.svg": {
+    "file": "assets/moon-Qeu0RRsl.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/moon.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/move-folder.svg": {
+    "file": "assets/move-folder-D0okP4cj.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/move-folder.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/navigation.svg": {
+    "file": "assets/navigation-2w9LO_H-.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-navigation.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/page-ghost.svg": {
+    "file": "assets/page-ghost-Cxo8fOhe.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/page-ghost.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/page.svg": {
+    "file": "assets/page-DccfAG1f.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/page.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/palette.svg": {
+    "file": "assets/palette-BOD16NXD.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-color.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/pdf.svg": {
+    "file": "assets/pdf-BU0lZX0Y.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/pdf.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/pencil-line.svg": {
+    "file": "assets/pencil-line-BbLS2e5_.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/pencil-line.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/pencil.svg": {
+    "file": "assets/pencil-MQpqUiej.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/pencil.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/permissions.svg": {
+    "file": "assets/permissions-y6gD4qAb.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/permissions.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/phone-lock.svg": {
+    "file": "assets/phone-lock-B3u4BcvO.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/phone-lock.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/pin.svg": {
+    "file": "assets/pin-CWBSCOaM.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/pin.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/playground.svg": {
+    "file": "assets/playground-C1XRoRKH.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/playground.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/plus.svg": {
+    "file": "assets/plus-CRdWOJ_t.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/plus.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/preferences.svg": {
+    "file": "assets/preferences-CrtLV58i.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/preferences.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/pro-ribbon.svg": {
+    "file": "assets/pro-ribbon-k3ceZTFj.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/pro-ribbon.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/pulse.svg": {
+    "file": "assets/pulse-W5YXCfTu.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/pulse.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/rename.svg": {
+    "file": "assets/rename-BZFXf9HI.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/rename.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/replace.svg": {
+    "file": "assets/replace-CGB-lZD7.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/replace.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/return-square.svg": {
+    "file": "assets/return-square-CKo2puGk.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/return-square.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/rewind.svg": {
+    "file": "assets/rewind-BQXGePyU.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/history.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/rss.svg": {
+    "file": "assets/rss-cNJtIiqY.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/rss.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/save.svg": {
+    "file": "assets/save-BHfj6Mpn.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/save.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/scaffold.svg": {
+    "file": "assets/scaffold-DciQLmsh.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/scaffold.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/script.svg": {
+    "file": "assets/script-CsUOH8PL.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/script.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/sign-in.svg": {
+    "file": "assets/sign-in-BTNYVGyj.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/sign-in.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/sign-out.svg": {
+    "file": "assets/sign-out-UKcExk0w.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/sign-out.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/site-settings.svg": {
+    "file": "assets/site-DnyZPvuA.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/site-settings.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/site.svg": {
+    "file": "assets/site-DnyZPvuA.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/site-settings.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/slider.svg": {
+    "file": "assets/slider-CVsI9BsB.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/slider.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/sliders-horizontal.svg": {
+    "file": "assets/sliders-horizontal-Ak5MNFe4.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/sliders-horizontal.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/sliders-vertical.svg": {
+    "file": "assets/sliders-vertical-DvlQHGpl.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/sliders-vertical.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/star-half.svg": {
+    "file": "assets/star-half-CQhp0sbt.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/star-half.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/star.svg": {
+    "file": "assets/star-e6_E_x1t.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/star.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/statamic-logo-lime.svg": {
+    "file": "assets/statamic-logo-lime-CS9_7yjo.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/statamic-logo-lime.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/statamic-mark-lime.svg": {
+    "file": "assets/statamic-mark-lime-Cr4nFjVw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/statamic-mark-lime.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/steps.svg": {
+    "file": "assets/steps-CqGCywMV.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/steps.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/sun.svg": {
+    "file": "assets/sun-CS7COWPS.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/sun.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/support.svg": {
+    "file": "assets/support-BmEEXxrT.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/support.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/synced.svg": {
+    "file": "assets/synced-B_LavwpG.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/synced.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/taxonomies.svg": {
+    "file": "assets/taxonomies-DC8NrGyK.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-taxonomy.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/team.svg": {
+    "file": "assets/team-BK_pxeFH.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/team.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/time-now.svg": {
+    "file": "assets/time-now-xCApLypd.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/time-now.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/trash.svg": {
+    "file": "assets/trash-BNTH-k5d.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/trash.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/tree-collapse.svg": {
+    "file": "assets/hierarchy-CfLvYvCk.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/fieldtype-structures.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/tree-expand.svg": {
+    "file": "assets/tree-expand-BkI9Cv3P.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/tree-expand.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/unsynced.svg": {
+    "file": "assets/unsynced-Bgt7Hzqj.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/unsynced.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/up-down.svg": {
+    "file": "assets/up-down-xSxPG8BZ.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/up-down.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/up-square.svg": {
+    "file": "assets/up-square-BxMR2suw.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/up-square.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/updates.svg": {
+    "file": "assets/updates-BaDOiTLk.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/updates.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/upload-cloud.svg": {
+    "file": "assets/upload-cloud-CdYSRzM9.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/upload-cloud.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/upload.svg": {
+    "file": "assets/upload-IOx7MAnb.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/upload.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/users.svg": {
+    "file": "assets/users-DJFFp4CT.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/users.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/utilities.svg": {
+    "file": "assets/utilities-seq88gUp.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/utilities.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/visit-website.svg": {
+    "file": "assets/visit-website-Hk6yF5DZ.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/visit-website.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/wand.svg": {
+    "file": "assets/wand-6JHVrizx.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/wand.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/warning-diamond.svg": {
+    "file": "assets/warning-diamond-B8Ek-723.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/warning-diamond.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/web.svg": {
+    "file": "assets/web-BkEHxTmx.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/web.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/workflow.svg": {
+    "file": "assets/workflow-Do6IV6K4.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/workflow.svg"
+  },
+  "vendor/statamic/cms/resources/svg/icons/x.svg": {
+    "file": "assets/x-KSHr4GXh.svg",
+    "src": "vendor/statamic/cms/resources/svg/icons/x.svg"
+  },
+  "vendor/statamic/cms/resources/svg/ui/architectural-lines.svg": {
+    "file": "assets/architectural-lines-Dtgwmj4T.svg",
+    "src": "vendor/statamic/cms/resources/svg/ui/architectural-lines.svg"
+  },
+  "vendor/statamic/cms/resources/svg/ui/chevron-down.svg": {
+    "file": "assets/chevron-down-Ck1gHBsT.svg",
+    "src": "vendor/statamic/cms/resources/svg/ui/chevron-down.svg"
+  },
+  "vendor/statamic/cms/resources/svg/ui/chevron-left.svg": {
+    "file": "assets/chevron-left-BFi0sA36.svg",
+    "src": "vendor/statamic/cms/resources/svg/ui/chevron-left.svg"
+  },
+  "vendor/statamic/cms/resources/svg/ui/chevron-right.svg": {
+    "file": "assets/chevron-right-Cz2r5v_0.svg",
+    "src": "vendor/statamic/cms/resources/svg/ui/chevron-right.svg"
+  },
+  "vendor/statamic/cms/resources/svg/ui/chevron-vertical.svg": {
+    "file": "assets/chevron-vertical-CttyMqzt.svg",
+    "src": "vendor/statamic/cms/resources/svg/ui/chevron-vertical.svg"
+  },
+  "vendor/statamic/cms/resources/svg/ui/dots.svg": {
+    "file": "assets/dots-BL_HePKq.svg",
+    "src": "vendor/statamic/cms/resources/svg/ui/dots.svg"
+  },
+  "vendor/statamic/cms/resources/svg/ui/drag-dots.svg": {
+    "file": "assets/drag-dots-Bj-Kvfl8.svg",
+    "src": "vendor/statamic/cms/resources/svg/ui/drag-dots.svg"
+  }
+}
