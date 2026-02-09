@@ -45,6 +45,18 @@ class ColorSwatchesFieldtype extends Fieldtype
             'instructions' => 'Allow deselecting the color, showing a "None" option.',
             'default'      => false,
         ],
+        'max_items' => [
+            'type'         => 'integer',
+            'display'      => 'Max Items',
+            'instructions' => 'The maximum number of swatches that can be selected. Set to 1 for single select mode.',
+            'default'      => 1,
+        ],
+        'min_items' => [
+            'type'         => 'integer',
+            'display'      => 'Min Items',
+            'instructions' => 'The minimum number of swatches that must be selected. Only applies when Max Items is not 1.',
+            'default'      => 0,
+        ],
         'show_labels' => [
             'type'         => 'toggle',
             'display'      => 'Show Labels',
@@ -83,7 +95,54 @@ class ColorSwatchesFieldtype extends Fieldtype
         return 'fieldtype-color';
     }
 
-    public function process($data)
+    public function rules(): array
+    {
+        if (! $this->isMultiSelect()) {
+            return [];
+        }
+
+        $rules = ['array'];
+
+        $minItems = $this->config('min_items') ?? 0;
+        $maxItems = $this->config('max_items') ?? 0;
+
+        if ($minItems > 0) {
+            $rules[] = 'min:'.$minItems;
+        }
+
+        if ($maxItems > 0) {
+            $rules[] = 'max:'.$maxItems;
+        }
+
+        return $rules;
+    }
+
+    public function process($data): mixed
+    {
+        if ($this->isMultiSelect()) {
+            return collect($data)->map(function ($item) {
+                return $this->processItem($item);
+            })->all();
+        }
+
+        return $this->processItem($data);
+    }
+
+    public function augment($value): mixed
+    {
+        return $value;
+    }
+
+    public function toGqlType(): mixed
+    {
+        if ($this->isMultiSelect()) {
+            return GraphQL::listOf(GraphQL::type('ColorSwatchType'));
+        }
+
+        return GraphQL::type('ColorSwatchType');
+    }
+
+    private function processItem(mixed $data): mixed
     {
         if (isset($data['value']) && is_string($data['value'])) {
             $data['value'] = explode(',', $data['value']);
@@ -92,13 +151,8 @@ class ColorSwatchesFieldtype extends Fieldtype
         return $data;
     }
 
-    public function augment($value)
+    private function isMultiSelect(): bool
     {
-        return $value;
-    }
-
-    public function toGqlType()
-    {
-        return GraphQL::type('ColorSwatchType');
+        return ($this->config('max_items') ?? 1) !== 1;
     }
 }

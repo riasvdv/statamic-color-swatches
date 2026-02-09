@@ -4,8 +4,9 @@
 
 # Color Swatches
 
-> Color Swatches for Statamic >= v3.
+> Color Swatches for Statamic >= v6.
 
+For the Statamic 3 & 4 version, check out the [v2 branch](https://github.com/riasvdv/statamic-color-swatches/tree/v2)
 For the Statamic 2 version, check out the [v1 branch](https://github.com/riasvdv/statamic-color-swatches/tree/v1)
 
 Let clients choose from a predefined set of colors.
