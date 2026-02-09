@@ -126,16 +126,17 @@ const containerStyle = computed(() => {
   };
 });
 
-if (props.config.default && props.value === props.config.default) {
-  const matches = props.config.colors.filter(
+if (
+  props.config.default &&
+  typeof props.value === "string" &&
+  props.value === props.config.default
+) {
+  const match = props.config.colors.find(
     (color) => color.label === props.config.default,
   );
-  if (matches.length > 0) {
+  if (match) {
     nextTick(() => {
-      update({
-        label: matches[0].label.toString(),
-        value: matches[0].value.toString(),
-      });
+      update({ label: match.label, value: match.value });
     });
   }
 }
