@@ -10,7 +10,7 @@
     "@vitejs/plugin-vue": "^5.2.3",
     "laravel-vite-plugin": "^1.2.0",
     "prettier": "^1.18.2",
-    "vite": "^6.3.4",
+    "vite": "^6.4.1",
     "vite-plugin-externals": "^0.6.2"
   }
 }
