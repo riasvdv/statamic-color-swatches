@@ -23,14 +23,10 @@ class ColorSwatchType extends \Rebing\GraphQL\Support\Type
                 }
             ],
             'value' => [
-                'type' => Type::string(),
-                'description' => 'Color value',
+                'type' => Type::listOf(Type::string()),
+                'description' => 'Color values',
                 'resolve' => function ($values, array $args) {
-                    if (is_string($values['value'])) {
-                        return $values['value'];
-                    }
-
-                    return Arr::first($values['value']);
+                    return Arr::wrap($values['value']);
                 }
             ],
         ];
