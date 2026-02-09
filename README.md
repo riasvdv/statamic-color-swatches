@@ -6,7 +6,7 @@
 
 > Color Swatches fieldtype for Statamic >= v6.
 
-For the Statamic 3 & 4 version, check out the [v2 branch](https://github.com/riasvdv/statamic-color-swatches/tree/v2).
+For the Statamic 3 & 4 version, check out the [v2 branch](https://github.com/riasvdv/statamic-color-swatches/tree/v2).  
 For the Statamic 2 version, check out the [v1 branch](https://github.com/riasvdv/statamic-color-swatches/tree/v1).
 
 Instead of providing a full color picker, Color Swatches lets you define a fixed palette of colors for content editors to choose from — as clickable swatch buttons in the Control Panel.
