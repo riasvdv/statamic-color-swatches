@@ -1,5 +1,5 @@
 <script setup>
-import { IndexFieldtype } from '@statamic/cms';
+import { IndexFieldtype } from "@statamic/cms";
 import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
 
 const props = defineProps(IndexFieldtype.props);
