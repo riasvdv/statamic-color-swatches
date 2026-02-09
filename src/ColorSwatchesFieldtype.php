@@ -39,6 +39,12 @@ class ColorSwatchesFieldtype extends Fieldtype
             'type'         => 'text',
             'instructions' => 'The label of the default color.',
         ],
+        'allow_blank' => [
+            'type'         => 'toggle',
+            'display'      => 'Allow Blank',
+            'instructions' => 'Allow deselecting the color, showing a "None" option.',
+            'default'      => false,
+        ],
         'show_labels' => [
             'type'         => 'toggle',
             'display'      => 'Show Labels',

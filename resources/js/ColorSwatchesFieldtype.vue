@@ -16,6 +16,21 @@ function isActive(color) {
   return color.label === props.value.label;
 }
 
+function selectColor(color) {
+  if (isActive(color)) {
+    if (props.config.allow_blank) {
+      update(null);
+    }
+    return;
+  }
+
+  update({ label: color.label, value: color.value });
+}
+
+function clear() {
+  update(null);
+}
+
 function ariaLabel(color) {
   const values = Array.isArray(color.value)
     ? color.value.join(", ")
@@ -61,6 +76,22 @@ if (props.config.default && props.value === props.config.default) {
     role="radiogroup"
     :aria-label="props.meta?.display || 'Color swatches'"
   >
+    <div v-if="props.config.allow_blank" class="color-swatches-item">
+      <button
+        :class="[
+          'color-swatches-button',
+          'color-swatches-none',
+          !props.value ? 'active' : ''
+        ]"
+        :aria-label="'None' + (!props.value ? ' (selected)' : '')"
+        :aria-checked="!props.value"
+        role="radio"
+        @click="clear"
+      />
+      <span v-if="props.config.show_labels" class="color-swatches-label">
+        None
+      </span>
+    </div>
     <div
       v-for="configColor in props.config.colors"
       :key="configColor.label"
@@ -77,11 +108,7 @@ if (props.config.default && props.value === props.config.default) {
         :aria-label="ariaLabel(configColor)"
         :aria-checked="isActive(configColor)"
         role="radio"
-        @click="
-          isActive(configColor)
-            ? update(null)
-            : update({ label: configColor.label, value: configColor.value })
-        "
+        @click="selectColor(configColor)"
       >
         <svg
           v-if="isActive(configColor)"

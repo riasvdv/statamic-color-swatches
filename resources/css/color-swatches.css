@@ -90,6 +90,24 @@
   box-shadow: 0 0 0 2px var(--color-zinc-800);
 }
 
+.color_swatches-fieldtype .color-swatches-none {
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.color_swatches-fieldtype .color-swatches-none::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: var(--color-red-400, #f87171);
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
 /* Checkmark icon overlay for active swatch */
 .color_swatches-fieldtype .color-swatches-checkmark {
   width: 20px;
