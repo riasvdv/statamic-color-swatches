@@ -10,8 +10,8 @@ export default defineConfig({
       publicDirectory: "dist",
       input: [
         "resources/js/color-swatches.js",
-        "resources/css/color-swatches.css"
-      ]
-    })
-  ]
+        "resources/css/color-swatches.css",
+      ],
+    }),
+  ],
 });

@@ -14,7 +14,7 @@ const isMultiSelect = computed(() => maxItems.value !== 1);
 
 defineReplicatorPreview(() => {
   if (isMultiSelect.value) {
-    return (props.value || []).map(item => item.label).join(", ");
+    return (props.value || []).map((item) => item.label).join(", ");
   }
 
   return props.value?.label || "";
@@ -24,7 +24,7 @@ function isActive(color) {
   if (!props.value) return false;
 
   if (isMultiSelect.value) {
-    return (props.value || []).some(item => item.label === color.label);
+    return (props.value || []).some((item) => item.label === color.label);
   }
 
   return color.label === props.value.label;
@@ -49,7 +49,7 @@ function selectColor(color) {
 function selectMultiple(color) {
   const current = Array.isArray(props.value) ? [...props.value] : [];
 
-  const index = current.findIndex(item => item.label === color.label);
+  const index = current.findIndex((item) => item.label === color.label);
 
   if (index !== -1) {
     if (minItems.value > 0 && current.length <= minItems.value) {
@@ -108,7 +108,7 @@ const isAtMin = computed(() => {
 
 const ariaRole = computed(() => (isMultiSelect.value ? "group" : "radiogroup"));
 const itemAriaRole = computed(() =>
-  isMultiSelect.value ? "checkbox" : "radio"
+  isMultiSelect.value ? "checkbox" : "radio",
 );
 
 const sizeClass = computed(() => {
@@ -122,19 +122,19 @@ const containerStyle = computed(() => {
   return {
     display: "grid",
     gridTemplateColumns: `repeat(${columns}, min-content)`,
-    gap: "8px"
+    gap: "8px",
   };
 });
 
 if (props.config.default && props.value === props.config.default) {
   const matches = props.config.colors.filter(
-    color => color.label === props.config.default
+    (color) => color.label === props.config.default,
   );
   if (matches.length > 0) {
     nextTick(() => {
       update({
         label: matches[0].label.toString(),
-        value: matches[0].value.toString()
+        value: matches[0].value.toString(),
       });
     });
   }
@@ -156,7 +156,7 @@ if (props.config.default && props.value === props.config.default) {
         :class="[
           'color-swatches-button',
           'color-swatches-none',
-          !hasSelection ? 'active' : ''
+          !hasSelection ? 'active' : '',
         ]"
         :aria-label="'None' + (!hasSelection ? ' (selected)' : '')"
         :aria-checked="!hasSelection"
@@ -176,7 +176,7 @@ if (props.config.default && props.value === props.config.default) {
         :class="[
           'color-swatches-button',
           isActive(configColor) ? 'active' : '',
-          isAtMax && !isActive(configColor) ? 'color-swatches-disabled' : ''
+          isAtMax && !isActive(configColor) ? 'color-swatches-disabled' : '',
         ]"
         :style="
           'background: ' + createCssBackgroundFromColors(configColor.value)

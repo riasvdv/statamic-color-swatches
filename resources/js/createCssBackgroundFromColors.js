@@ -1,4 +1,4 @@
-const createCssBackgroundFromColors = function(colors) {
+const createCssBackgroundFromColors = function (colors) {
   if (!Array.isArray(colors)) {
     return colors;
   }
