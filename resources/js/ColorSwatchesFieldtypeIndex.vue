@@ -1,22 +1,14 @@
+<script setup>
+import { IndexFieldtype } from '@statamic/cms';
+import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
+
+const props = defineProps(IndexFieldtype.props);
+</script>
+
 <template>
   <div
     class="w-4 h-4 rounded-full"
-    :style="'background: ' + cssBackground"
-    :title="value.label"
+    :style="'background: ' + createCssBackgroundFromColors(props.value?.value)"
+    :title="props.value?.label || ''"
   />
 </template>
-
-<script>
-import IndexFieldtype from '@statamic/components/fieldtypes/IndexFieldtype.vue';
-import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
-
-export default {
-  mixins: [IndexFieldtype],
-
-  computed: {
-    cssBackground: function() {
-      return createCssBackgroundFromColors(this.value.value);
-    }
-  }
-};
-</script>

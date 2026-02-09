@@ -1,52 +1,46 @@
+<script setup>
+import { nextTick } from 'vue';
+import { Fieldtype } from '@statamic/cms';
+import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
+
+const emit = defineEmits(Fieldtype.emits);
+const props = defineProps(Fieldtype.props);
+const { expose, defineReplicatorPreview, update } = Fieldtype.use(emit, props);
+defineExpose(expose);
+
+defineReplicatorPreview(() => props.value?.label || '');
+
+function isActive(color) {
+  if (! props.value) return false;
+
+  return color.label === props.value.label
+}
+
+if (props.config.default && props.value === props.config.default) {
+  const matches = props.config.colors.filter(
+      color => color.label === props.config.default
+  );
+  if (matches.length > 0) {
+    nextTick(() => {
+      update({
+        label: matches[0].label.toString(),
+        value: matches[0].value.toString()
+      });
+    });
+  }
+}
+
+
+</script>
+
 <template>
   <div>
     <button
-      v-for="configColor in config.colors"
+      v-for="configColor in props.config.colors"
       :class="['color-swatches-button', (isActive(configColor) ? 'active' : '')]"
       :title="configColor.label"
-      :style="'background: ' + cssBackground(configColor.value)"
+      :style="'background: ' + createCssBackgroundFromColors(configColor.value)"
       @click="isActive(configColor) ? update(null) : update({ label: configColor.label, value: configColor.value })"
     />
   </div>
 </template>
-
-<script>
-import Fieldtype from '@statamic/components/fieldtypes/Fieldtype.vue';
-import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
-
-export default {
-  mixins: [Fieldtype],
-
-  methods: {
-    cssBackground: function(colors) {
-      return createCssBackgroundFromColors(colors);
-    },
-    getReplicatorPreviewText() {
-      if (!this.value) return;
-
-      return this.value.label;
-    },
-    isActive(color) {
-      if (! this.value) return false;
-
-      return color.label === this.value.label
-    }
-  },
-
-  mounted: function() {
-    if (this.config.default && this.value === this.config.default) {
-      const matches = this.config.colors.filter(
-        color => color.label === this.config.default
-      );
-      if (matches.length > 0) {
-        this.$nextTick(() => {
-          this.update({
-            label: matches[0].label.toString(),
-            value: matches[0].value.toString()
-          });
-        });
-      }
-    }
-  }
-};
-</script>

@@ -6,6 +6,7 @@
     "format": "prettier 'resources/**/*.{css,js,json,css,ts,tsx,vue}' '*.{js,css}' --write"
   },
   "devDependencies": {
+    "@statamic/cms": "file:./vendor/statamic/cms/resources/dist-package",
     "@vitejs/plugin-vue": "^5.2.3",
     "laravel-vite-plugin": "^1.2.0",
     "prettier": "^1.18.2",

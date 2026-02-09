@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-import statamic from './vendor/statamic/cms/resources/js/vite-plugin';
-import vue from '@vitejs/plugin-vue';
-import { viteExternalsPlugin } from 'vite-plugin-externals';
+import statamic from '@statamic/cms/vite-plugin';
 
 export default defineConfig({
     plugins: [
@@ -12,14 +10,5 @@ export default defineConfig({
             publicDirectory: 'dist',
             input: ['resources/js/color-swatches.js', 'resources/css/color-swatches.css'],
         }),
-        vue(),
-        viteExternalsPlugin({
-            vue: 'Vue',
-            pinia: 'Pinia',
-            'vue-demi': 'Vue',
-        }),
     ],
-    server: {
-        hmr: false,
-    },
 });
