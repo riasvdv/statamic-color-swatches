@@ -39,6 +39,37 @@ class ColorSwatchesFieldtype extends Fieldtype
             'type'         => 'text',
             'instructions' => 'The label of the default color.',
         ],
+        'show_labels' => [
+            'type'         => 'toggle',
+            'display'      => 'Show Labels',
+            'instructions' => 'Display the color label below each swatch.',
+            'default'      => false,
+        ],
+        'swatch_size' => [
+            'type'         => 'button_group',
+            'display'      => 'Swatch Size',
+            'instructions' => 'The size of each color swatch.',
+            'default'      => 'medium',
+            'options'      => [
+                'small'  => 'Small',
+                'medium' => 'Medium',
+                'large'  => 'Large',
+            ],
+        ],
+        'columns' => [
+            'type'         => 'button_group',
+            'display'      => 'Columns',
+            'instructions' => 'Number of columns in the swatch grid. Auto will wrap naturally.',
+            'default'      => 'auto',
+            'options'      => [
+                'auto' => 'Auto',
+                '2'    => '2',
+                '3'    => '3',
+                '4'    => '4',
+                '5'    => '5',
+                '6'    => '6',
+            ],
+        ],
     ];
 
     public function icon(): string
