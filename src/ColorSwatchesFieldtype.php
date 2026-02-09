@@ -117,6 +117,22 @@ class ColorSwatchesFieldtype extends Fieldtype
         return $rules;
     }
 
+    public function preProcess($data): mixed
+    {
+        if (! is_string($data)) {
+            return $data;
+        }
+
+        $match = collect($this->config('colors', []))
+            ->first(fn ($color) => $color['label'] === $data);
+
+        if ($match) {
+            return ['label' => $match['label'], 'value' => $match['value']];
+        }
+
+        return $data;
+    }
+
     public function process($data): mixed
     {
         if ($this->isMultiSelect()) {

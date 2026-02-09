@@ -1,5 +1,5 @@
 <script setup>
-import { computed, nextTick } from "vue";
+import { computed } from "vue";
 import { Fieldtype } from "@statamic/cms";
 import createCssBackgroundFromColors from "./createCssBackgroundFromColors";
 
@@ -125,21 +125,6 @@ const containerStyle = computed(() => {
     gap: "8px",
   };
 });
-
-if (
-  props.config.default &&
-  typeof props.value === "string" &&
-  props.value === props.config.default
-) {
-  const match = props.config.colors.find(
-    (color) => color.label === props.config.default,
-  );
-  if (match) {
-    nextTick(() => {
-      update({ label: match.label, value: match.value });
-    });
-  }
-}
 </script>
 
 <template>
