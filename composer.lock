@@ -4573,16 +4573,16 @@
         },
         {
             "name": "rhukster/dom-sanitizer",
-            "version": "1.0.8",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rhukster/dom-sanitizer.git",
-                "reference": "757e4d6ac03afe9afa4f97cbef453fc5c25f0729"
+                "reference": "49a98046b708a4c92f754f5b0ef1720bb85142e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rhukster/dom-sanitizer/zipball/757e4d6ac03afe9afa4f97cbef453fc5c25f0729",
-                "reference": "757e4d6ac03afe9afa4f97cbef453fc5c25f0729",
+                "url": "https://api.github.com/repos/rhukster/dom-sanitizer/zipball/49a98046b708a4c92f754f5b0ef1720bb85142e2",
+                "reference": "49a98046b708a4c92f754f5b0ef1720bb85142e2",
                 "shasum": ""
             },
             "require": {
@@ -4612,9 +4612,9 @@
             "description": "A simple but effective DOM/SVG/MathML Sanitizer for PHP 7.4+",
             "support": {
                 "issues": "https://github.com/rhukster/dom-sanitizer/issues",
-                "source": "https://github.com/rhukster/dom-sanitizer/tree/1.0.8"
+                "source": "https://github.com/rhukster/dom-sanitizer/tree/1.0.10"
             },
-            "time": "2024-04-15T08:48:55+00:00"
+            "time": "2026-04-10T17:00:11+00:00"
         },
         {
             "name": "scrivo/highlight.php",
@@ -9193,5 +9193,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
